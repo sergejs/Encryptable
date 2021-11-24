@@ -6,10 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Encryptable",
     platforms: [
-        .macOS(.v12),
-        .iOS(.v13),
-        .watchOS(.v6),
-        .tvOS(.v13),
+        .iOS(.v15),
     ],
     products: [
         .library(
