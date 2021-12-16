@@ -14,7 +14,6 @@ let package = Package(
     products: [
         .library(
             name: "Encryptable",
-            type: .dynamic,
             targets: ["Encryptable"]
         ),
     ],
